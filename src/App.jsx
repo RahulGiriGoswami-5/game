@@ -16,6 +16,11 @@ const App = () => {
       <Story />
       <Contact />
       <Footer />
+      <div className="w-screen bg-black py-3 text-center">
+        <p className="font-general text-[10px] uppercase tracking-widest text-blue-50 opacity-60">
+          Powered by Integrals Group
+        </p>
+      </div>
     </main>
   )
 }
